@@ -1,0 +1,8 @@
+{
+  "name": "Omni AI",
+  "description": "A minimalist, responsive conversational AI interface for Omni AI featuring Khmer typography and ChatGPT-grade visual fidelity.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

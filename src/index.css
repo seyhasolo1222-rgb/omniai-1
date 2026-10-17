@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-khmer: 'Kantumruy Pro', 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-sans: 'Plus Jakarta Sans', 'Kantumruy Pro', system-ui, -apple-system, sans-serif;
+    --sidebar-width: 260px;
+    --header-height: 56px;
+    --composer-max-width: 768px;
+    --color-bg-main: #ffffff;
+    --color-bg-sidebar: #f9f9f9;
+    --color-text-primary: #0d0d0d;
+    --color-text-secondary: #5d5d5d;
+    --color-text-muted: #8e8e8e;
+    --color-border-subtle: #ececec;
+    --color-border-input: #e3e3e3;
+    --color-hover-sidebar: #ececec;
+    --color-input-bg: #f4f4f4;
+  }
+
+  * {
+    border-color: #e5e5e5;
+  }
+
+  body {
+    font-family: var(--font-khmer);
+    color: var(--color-text-primary);
+    background-color: var(--color-bg-main);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom subtle scrollbars like ChatGPT */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.12);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.22);
+}
